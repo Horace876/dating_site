@@ -10,7 +10,7 @@
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav mr-auto">
                         <li class="nav-item" role="presentation"><router-link class="nav-link" :to="!login ? '/' : '/dashboard'">Home</router-link></li>
-                        <li class="nav-item" role="presentation"><router-link class="nav-link" to="/about">About</router-link></li>
+                        <!-- <li class="nav-item" role="presentation"><router-link class="nav-link" to="/about">About</router-link></li> -->
                     </ul>
                     <span class="navbar-text actions">
                         <template v-if="!login">

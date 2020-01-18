@@ -109,7 +109,7 @@
     beforeMount(){
         this.checkLogin();
         
-        let id =  this.$route.query.id ? this.$route.query.id : this.user.id;
+        let id = this.$route.query.id || this.user.id;
         
         this.$http.get('http://localhost:3000/users/'+id)
         .then(data => {

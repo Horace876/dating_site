@@ -55,11 +55,21 @@
           }else{
             this.error.status = true
             this.error.message = "Email/Password is incorrect!"
+            this.closeError();
           }
         }).catch(error => {
-            console.log(error)
-        })
-        
+            this.error.status = true
+            this.error.message = "We seem to have a problem connecting to the servers. Please try again later"
+            this.closeError();
+        })        
+      }, 
+      closeError:function(time = 5000){
+        let _this = this
+
+        setTimeout(function(){
+          _this.error.status = false;
+          _this.error.message = ''
+        }, time)
       }
     }
   }

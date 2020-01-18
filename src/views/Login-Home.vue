@@ -39,7 +39,7 @@
     created(){
         this.checkLogin();
         
-        this.$http.get('http://localhost:3000/users')
+        this.$http.get('http://localhost:3000/users/?id_ne='+this.user.id)
         .then(data => {
             this.items = data.data
         }).catch(error => {
