@@ -1,0 +1,31 @@
+{
+    "users": [
+      { 
+        "id": 1, 
+        "fname": "Horace",
+        "lname": "Grant", 
+        "age": 26, 
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+        "email": "horace@grant.com",
+        "password": "123456"
+      },
+      { 
+        "id": 2, 
+        "fname": "Drea",
+        "lname": "Grant",  
+        "age": 21, 
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+        "email": "drea@grant.com" ,
+        "password": "123456"
+      },
+      { 
+        "id": 3, 
+        "fname": "Zye",
+        "lname": "Grant", 
+        "age": 4, 
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+        "email": "zye@grant.com" ,
+        "password": "123456"
+      }
+    ]
+}
