@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Navbar :login="checkLoginStatus()" v-on:logout="logout" :user="getUser()"></Navbar>
+    <Navbar :login="checkLoginStatus()" v-on:logout="logout" :ext="getExt()"></Navbar>
     
-    <router-view v-on:login="login" :login="checkLoginStatus()" :user="getUser()"/>
+    <router-view v-on:login="login" :login="checkLoginStatus()" :ext="getExt()"/>
   </div>
 </template>
 
@@ -13,7 +13,10 @@
         return {
           loginstat: false, 
           loginstat: false,
-          user:{}
+          ext:{
+            user:{},
+            baseUrl: "https://dating-server876.herokuapp.com/users/", 
+          }
         }
     },
     created(){
@@ -22,12 +25,12 @@
     methods:{
         logout:function(){
             this.loginstat = false
-            this.user = {}
+            this.ext.user = {}
             this.$router.push('/')
         },
         login:function(values){
             this.loginstat = true
-            this.user = values
+            this.ext.user = values
             this.$router.push('/dashboard')
         },
         checkLoginStatus:function(){
@@ -38,8 +41,8 @@
                 this.$router.push('/dashboard')
             }
         },
-        getUser:function(){
-          return this.user
+        getExt:function(){
+          return this.ext
         }
     }
   }

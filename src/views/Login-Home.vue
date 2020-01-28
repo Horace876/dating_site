@@ -27,19 +27,19 @@
     name: 'CardHolder', 
     props: {
         login: Boolean, 
-        user: Object,
+        ext: Object,
     },
     data() {
         return {
             items: [],
             liked:[], 
-            hover: false
+            hover: false,
         }
     },
     created(){
         this.checkLogin();
         
-        this.$http.get('http://localhost:3000/users/?id_ne='+this.user.id)
+        this.$http.get(this.ext.baseUrl)
         .then(data => {
             this.items = data.data
         }).catch(error => {

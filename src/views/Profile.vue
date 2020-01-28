@@ -99,19 +99,19 @@
     name: 'Profile', 
     props: {
         login: Boolean, 
-        user: Object,
+        ext: Object,
     },
     data() {
         return {
-            data: {}
+            data: {},
         }
     },
     beforeMount(){
         this.checkLogin();
         
-        let id = this.$route.query.id || this.user.id;
+        let id = this.$route.query.id || this.ext.user.id;
         
-        this.$http.get('http://localhost:3000/users/'+id)
+        this.$http.get(this.ext.baseUrl+id)
         .then(data => {
             this.data = data.data
         }).catch(error => {

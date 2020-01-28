@@ -30,9 +30,11 @@
 <script>
   export default {
     name: 'Login',
+    props: {
+        ext: Object,
+    },
     data() {
         return {
-          baseUrl: "http://localhost:3000/users/", 
           form:{
             email: '',
             pass: ''
@@ -46,17 +48,17 @@
     methods:{
       submitForm:function(e){
         e.preventDefault();
-        let query = this.baseUrl + "?q="+this.form.email+"&password="+this.form.pass;
+        let query = this.ext.baseUrl + "1";
 
         this.$http.get(query)
         .then(data => {  
-          if(data.data.length > 0){
-            this.$emit('login', data.data[0])
-          }else{
+          //if(data > 0){
+            this.$emit('login', data.data)
+          /*}else{
             this.error.status = true
             this.error.message = "Email/Password is incorrect!"
             this.closeError();
-          }
+          }*/
         }).catch(error => {
             this.error.status = true
             this.error.message = "We seem to have a problem connecting to the servers. Please try again later"

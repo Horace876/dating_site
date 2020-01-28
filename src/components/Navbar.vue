@@ -18,7 +18,7 @@
                             <router-link class="btn btn-light action-button" role="button" to="/signup">Sign Up</router-link>
                         </template>
                         <template v-else>
-                            <router-link class="login" to="/profile">{{user.fname}}</router-link>
+                            <router-link class="login" to="/profile">{{ext.user.fname}}</router-link>
                             <a class="btn btn-light action-button" role="button" to="#" @click="$emit('logout')">Logout</a>
                         </template>
                     </span>
@@ -34,7 +34,7 @@
     name: 'Navbar',
     props: {
         login: Boolean, 
-        user: Object,
+        ext: Object,
     },
     data() {
         return {
