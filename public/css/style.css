@@ -2,7 +2,7 @@ a:hover {
   text-decoration: none; }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -22,8 +22,8 @@ a:hover {
 
 #navbar-page .navigation-clean-button {
   background: #070707;
-  padding-top: .75rem;
-  padding-bottom: .75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   color: #333;
   border-radius: 0;
   box-shadow: none;
@@ -54,7 +54,8 @@ a:hover {
 #navbar-page .navigation-clean-button .navbar-toggler {
   border-color: #ddd; }
 
-#navbar-page .navigation-clean-button .navbar-toggler:hover, #navbar-page .navigation-clean-button .navbar-toggler:focus {
+#navbar-page .navigation-clean-button .navbar-toggler:hover,
+#navbar-page .navigation-clean-button .navbar-toggler:focus {
   background: none; }
 
 #navbar-page .navigation-clean-button.navbar-dark .navbar-toggler {
@@ -66,17 +67,22 @@ a:hover {
 #navbar-page .navigation-clean-button.navbar-dark .navbar-toggler {
   color: #eee; }
 
-#navbar-page .navigation-clean-button .navbar-collapse, #navbar-page .navigation-clean-button .form-inline {
+#navbar-page .navigation-clean-button .navbar-collapse,
+#navbar-page .navigation-clean-button .form-inline {
   border-top-color: #ddd; }
 
-#navbar-page .navigation-clean-button.navbar-dark .navbar-collapse, #navbar-page .navigation-clean-button.navbar-dark .form-inline {
+#navbar-page .navigation-clean-button.navbar-dark .navbar-collapse,
+#navbar-page .navigation-clean-button.navbar-dark .form-inline {
   border-top-color: #333; }
 
-#navbar-page .navigation-clean-button .navbar-nav a.active, #navbar-page .navigation-clean-button .navbar-nav > .show > a {
+#navbar-page .navigation-clean-button .navbar-nav a.active,
+#navbar-page .navigation-clean-button .navbar-nav > .show > a {
   background: none;
   box-shadow: none; }
 
-#navbar-page .navigation-clean-button.navbar-light .navbar-nav a.active, #navbar-page .navigation-clean-button.navbar-light .navbar-nav a.active:focus, #navbar-page .navigation-clean-button.navbar-light .navbar-nav a.active:hover {
+#navbar-page .navigation-clean-button.navbar-light .navbar-nav a.active,
+#navbar-page .navigation-clean-button.navbar-light .navbar-nav a.active:focus,
+#navbar-page .navigation-clean-button.navbar-light .navbar-nav a.active:hover {
   color: #269d9d;
   box-shadow: none;
   background: none;
@@ -89,7 +95,8 @@ a:hover {
 #navbar-page .navigation-clean-button.navbar-light .navbar-nav .nav-link {
   color: #fff; }
 
-#navbar-page .navigation-clean-button.navbar-light .navbar-nav .nav-link:focus, #navbar-page .navigation-clean-button.navbar-light .navbar-nav .nav-link:hover {
+#navbar-page .navigation-clean-button.navbar-light .navbar-nav .nav-link:focus,
+#navbar-page .navigation-clean-button.navbar-light .navbar-nav .nav-link:hover {
   color: #269d9d !important;
   background-color: transparent; }
 
@@ -99,12 +106,14 @@ a:hover {
   background-color: #fff;
   border-radius: 2px; }
 
-#navbar-page .navigation-clean-button .dropdown-menu .dropdown-item:focus, #navbar-page .navigation-clean-button .dropdown-menu .dropdown-item {
+#navbar-page .navigation-clean-button .dropdown-menu .dropdown-item:focus,
+#navbar-page .navigation-clean-button .dropdown-menu .dropdown-item {
   line-height: 2;
   font-size: 14px;
   color: #fff; }
 
-#navbar-page .navigation-clean-button .dropdown-menu .dropdown-item:focus, #navbar-page .navigation-clean-button .dropdown-menu .dropdown-item:hover {
+#navbar-page .navigation-clean-button .dropdown-menu .dropdown-item:focus,
+#navbar-page .navigation-clean-button .dropdown-menu .dropdown-item:hover {
   background: #eee;
   color: inherit; }
 
@@ -123,7 +132,9 @@ a:hover {
   background-color: #1f2021;
   color: #fff; }
 
-#navbar-page .navigation-clean-button.navbar-dark .navbar-nav a.active, #navbar-page .navigation-clean-button.navbar-dark .navbar-nav a.active:focus, #navbar-page .navigation-clean-button.navbar-dark .navbar-nav a.active:hover {
+#navbar-page .navigation-clean-button.navbar-dark .navbar-nav a.active,
+#navbar-page .navigation-clean-button.navbar-dark .navbar-nav a.active:focus,
+#navbar-page .navigation-clean-button.navbar-dark .navbar-nav a.active:hover {
   color: #269d9d;
   box-shadow: none;
   background: none;
@@ -132,14 +143,16 @@ a:hover {
 #navbar-page .navigation-clean-button.navbar-dark .navbar-nav .nav-link {
   color: #dfe8ee; }
 
-#navbar-page .navigation-clean-button.navbar-dark .navbar-nav .nav-link:focus, #navbar-page .navigation-clean-button.navbar-dark .navbar-nav .nav-link:hover {
+#navbar-page .navigation-clean-button.navbar-dark .navbar-nav .nav-link:focus,
+#navbar-page .navigation-clean-button.navbar-dark .navbar-nav .nav-link:hover {
   color: #fff !important;
   background-color: transparent; }
 
 #navbar-page .navigation-clean-button.navbar-dark .navbar-nav > li > .dropdown-menu {
   background-color: #1f2021; }
 
-#navbar-page .navigation-clean-button.navbar-dark .dropdown-menu .dropdown-item:focus, #navbar-page .navigation-clean-button.navbar-dark .dropdown-menu .dropdown-item {
+#navbar-page .navigation-clean-button.navbar-dark .dropdown-menu .dropdown-item:focus,
+#navbar-page .navigation-clean-button.navbar-dark .dropdown-menu .dropdown-item {
   color: #f2f5f8; }
 
 @media (max-width: 767px) {
@@ -157,7 +170,9 @@ a:hover {
 #navbar-page .navigation-clean-button.navbar-dark .actions .login:hover {
   color: #fff; }
 
-#navbar-page .navigation-clean-button .navbar-text .action-button, #navbar-page .navigation-clean-button .navbar-text .action-button:active, #navbar-page .navigation-clean-button .navbar-text .action-button:hover {
+#navbar-page .navigation-clean-button .navbar-text .action-button,
+#navbar-page .navigation-clean-button .navbar-text .action-button:active,
+#navbar-page .navigation-clean-button .navbar-text .action-button:hover {
   background: #269d9d;
   border-radius: 20px;
   font-size: inherit;
@@ -165,14 +180,15 @@ a:hover {
   box-shadow: none;
   border: none;
   text-shadow: none;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   transition: background-color 0.25s;
   font-size: inherit; }
 
 #navbar-page .navigation-clean-button .navbar-text .action-button:hover {
   background: #66d7d7; }
 
-#navbar-page .navigation-clean-button.navbar-dark .action-button, #navbar-page .navigation-clean-button.navbar-dark .action-button:active {
+#navbar-page .navigation-clean-button.navbar-dark .action-button,
+#navbar-page .navigation-clean-button.navbar-dark .action-button:active {
   background: #269d9d; }
 
 #navbar-page .navigation-clean-button.navbar-dark .action-button:hover {
@@ -198,7 +214,7 @@ a:hover {
 
 @media (max-width: 991.98px) {
   #login-page #login-block {
-    opacity: .95; } }
+    opacity: 0.95; } }
 
 @media (max-width: 991.98px) {
   #login-page #bg-block {
@@ -252,7 +268,8 @@ a:hover {
   vertical-align: middle; }
 
 #home-page #heading1 {
-  margin-top: 0; }
+  margin-top: 0;
+  text-shadow: 0 0 10px black; }
 
 #home-page #parallax-container {
   position: relative;
@@ -278,9 +295,9 @@ a:hover {
 #home-page #box-2 {
   height: calc(100vh - 88px);
   width: 100%;
-  background-image: url(../images/nathan-dumlao-EdULZpOKsUE-unsplash.jpg);
+  background-image: url(../images/corona.jpg);
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   display: table;
   background-attachment: fixed;
   text-align: center; }
@@ -387,7 +404,8 @@ a:hover {
 
 #profile-page #info {
   max-width: 700px; }
-  #profile-page #info h2, #profile-page #info .info-stats {
+  #profile-page #info h2,
+  #profile-page #info .info-stats {
     color: white;
     text-shadow: 0px 0px 3px black;
     font-weight: bold; }
@@ -404,7 +422,7 @@ a:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 5px solid #269D9D; } }
+    border: 5px solid #269d9d; } }
 
 @media (min-width: 300px) {
   #profile-page #displayPicture {
@@ -418,7 +436,7 @@ a:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 5px solid #269D9D;
+    border: 5px solid #269d9d;
     margin: 0 auto;
     margin-top: 25px; } }
 
@@ -434,7 +452,7 @@ a:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 5px solid #269D9D;
+    border: 5px solid #269d9d;
     margin: 0 auto;
     margin-top: 25px; } }
 
@@ -480,7 +498,8 @@ a:hover {
     border-radius: 10px;
     padding: 20px 35px; } }
 
-#profile-page .h3, #profile-page h3 {
+#profile-page .h3,
+#profile-page h3 {
   margin-bottom: 25px; }
 
 @media (min-width: 1200px) {

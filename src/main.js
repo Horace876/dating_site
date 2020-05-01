@@ -6,7 +6,7 @@ import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
 import axios from 'axios'
 
-Vue.prototype.$http = axios
+Vue.prototype.axios = axios
 
 
 const requireComponent = require.context(
